@@ -291,8 +291,8 @@ export default function Portfolio() {
               ))}
               {/* Download Resume */}
               <a
-                href="/Ahmed-Yehia.pdf"
-                download="Ahmed-Yehia-Resume.pdf"
+                href="/Ahmed_Yehia_Resume.pdf"
+                download="Ahmed_Yehia_Resume.pdf"
                 data-hover
                 style={{
                   display:"inline-flex", alignItems:"center", gap:7,
