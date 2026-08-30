@@ -54,12 +54,23 @@ const CONTENT = {
       { category: "Tools & Practices", items: ["Git / GitHub", "Cloudinary", "Multer", "Joi", "Bcrypt.js", "CI/CD Basics", "Agile / Scrum"] },
     ],
     projects: [
-      { name: "TPSS Trading Platform", desc: "Full trading system for clients to execute trades and track open positions in real time. Includes position reflection, order lifecycle, and exposure calculation.", tags: ["NestJS", "React.js", "PostgreSQL"], status: "Live", year: "2024" },
-      { name: "Forex CRM System", desc: "CRM for brokerage companies to manage clients on MT4/MT5. Built automated commission & rebate engine for Introducing Broker hierarchies.", tags: ["NestJS", "React.js", "PostgreSQL", "MT4/MT5"], status: "Live", year: "2024" },
-      { name: "Crypto Payment Gateway", desc: "Multi-currency crypto gateway enabling merchants to accept crypto, verify wallet transactions, and run automated reconciliation for crypto to fiat tracking.", tags: ["NestJS", "Node.js", "RabbitMQ", "React.js"], status: "Live", year: "2024" },
-      { name: "Crypto CRM System", desc: "CRM for crypto-fintech ops with KYC dashboards, client lifecycle management, and real-time transaction monitoring with full audit trails.", tags: ["NestJS", "React.js", "MongoDB"], status: "Live", year: "2024" },
-      { name: "Dalelok Platform", desc: "Dubizzle-style classified marketplace with listings, categories, search, filters, and user profiles. Scalable backend APIs and responsive React UI.", tags: ["Node.js", "Express.js", "React.js", "MongoDB", "Socket.io"], status: "Live", year: "2024" },
-      { name: "FreshCart E-Commerce", desc: "Full-stack e-commerce with product catalog, cart, checkout, orders, and Stripe payments. Optimized REST APIs and Redux Toolkit state management.", tags: ["React.js", "Redux Toolkit", "Node.js", "MongoDB", "Stripe"], status: "Open Source", year: "2023" },
+      {
+        name: "Customer Support System",
+        company: "Finitic",
+        url: "https://merchant.cyrafa.net/login",
+        desc: "Centralized customer support platform for managing tickets, customer communication, attachments, and reporting, backed by a scalable architecture.",
+        highlights: ["Ticket lifecycle management", "Role-based permissions", "Real-time notifications", "Real-time chat"],
+        tags: ["TypeScript", "React", "Node.js", "Express.js", "MongoDB", "Socket.io", "RabbitMQ", "RBAC", "REST APIs"],
+        status: "Live",
+        year: "",
+      },
+      { name: "Client Portal", url: "https://my-bugfree.exiniti.com/login", desc: "Client portal for managing trading accounts, monitoring portfolios, making deposits and withdrawals, and accessing account information. Integrated MT4/MT5 services and multiple payment gateways with secure authentication and a responsive, user-friendly interface.", highlights: ["Crypto gateway", "Hesaby gateway", "Cyrafa gateway", "Checkout gateway", "Wire transfer", "MT4/MT5"], tags: ["Node.js", "Express.js", "MongoDB", "Transaction Monitoring", "IT Integration", "Mongoose", "React.js", "JavaScript", "Redux-Saga"], status: "Live", year: "" },
+      { name: "Forex CRM System", url: "https://crm-bugfree.exiniti.com/login", desc: "CRM for brokerage companies to manage clients on MT4/MT5. Built automated commission & rebate engine for Introducing Broker hierarchies.", highlights: ["MT4/MT5", "Crypto gateway", "Hesaby gateway", "Cyrafa gateway", "Checkout gateway", "Wire transfer"], tags: ["Node.js", "React.js", "Mongoose", "RabbitMQ", "Socket.io", "Express.js", "Engineering Leadership", "MongoDB", "MySQL", "IT Integration", "Redux-Saga"], status: "Live", year: "2024" },
+      { name: "Crypto Payment Gateway", url: "https://merchant.cyrafa.com/login", desc: "Multi-currency crypto gateway enabling merchants to accept crypto, verify wallet transactions, and run automated reconciliation for crypto to fiat tracking.", tags: ["TypeScript", "React.js", "Material UI", "Redux-Saga", "MongoDB", "Mongoose", "Express.js"], status: "Live", year: "2024" },
+      { name: "Crypto CRM System", url: "https://new-crm.cyrafa.net/login", desc: "CRM for crypto-fintech ops with KYC dashboards, client lifecycle management, and real-time transaction monitoring with full audit trails.", tags: ["JavaScript", "React.js", "Material UI", "Redux-Saga", "MongoDB", "Mongoose", "Express.js"], status: "Live", year: "2024" },
+      { name: "TPSS Trading Platform", desc: "Full trading system for clients to execute trades and track open positions in real time. Includes position reflection, order lifecycle, and exposure calculation.", tags: ["React.js", "NestJS", "TypeScript", "Prisma", "PostgreSQL"], status: "Live", year: "2024" },
+      { name: "FreshCart E-Commerce", url: "https://ahmed-yehia12.github.io/E-CommerceReactJs/#/login", desc: "Full-stack e-commerce with product catalog, cart, checkout, orders, and Stripe payments. Optimized REST APIs and Redux Toolkit state management.", tags: ["React.js", "Redux Toolkit", "Node.js", "MongoDB", "Stripe"], status: "Open Source", year: "2023" },
+      { name: "Dalelok Platform", desc: "Dubizzle-style classified marketplace with listings, categories, search, filters, and user profiles. Scalable backend APIs and responsive React UI.", tags: ["Node.js", "PostgreSQL", "Express.js", "IT Strategy", "Web Chat", "IT Integration", "Sequelize.js", "I18n"], status: "Live", year: "2024" },
       { name: "Tawseela Logistics", desc: "Delivery platform for Customers, Captains, and Operators with shipment dashboards, captain management, and cash reconciliation tools.", tags: ["Node.js", "MongoDB", "React.js", "Express.js"], status: "Live", year: "2023" },
       { name: "Saraha Anonymous Messaging", desc: "Anonymous messaging app with inbox management, message moderation, and secure user sessions with zero sender identity exposure.", tags: ["Node.js", "Express.js", "MongoDB", "React.js"], status: "Open Source", year: "2023" },
     ],
@@ -165,12 +176,23 @@ const CONTENT = {
       { category: "الأدوات والممارسات", items: ["Git / GitHub", "Cloudinary", "Multer", "Joi", "Bcrypt.js", "أساسيات CI/CD", "Agile / Scrum"] },
     ],
     projects: [
-      { name: "منصة TPSS للتداول", desc: "نظام تداول متكامل يتيح للعملاء تنفيذ الصفقات ومتابعة المراكز المفتوحة لحظيا، مع إدارة دورة حياة الأوامر وحساب التعرض.", tags: ["NestJS", "React.js", "PostgreSQL"], status: "مباشر", year: "2024" },
-      { name: "نظام Forex CRM", desc: "نظام CRM لشركات الوساطة لإدارة العملاء على MT4/MT5، مع محرك عمولات وRebate آلي لهياكل Introducing Broker.", tags: ["NestJS", "React.js", "PostgreSQL", "MT4/MT5"], status: "مباشر", year: "2024" },
-      { name: "بوابة دفع Crypto", desc: "بوابة دفع متعددة العملات تتيح للتجار قبول العملات الرقمية، التحقق من معاملات المحافظ، وتشغيل تسويات آلية بين Crypto وFiat.", tags: ["NestJS", "Node.js", "RabbitMQ", "React.js"], status: "مباشر", year: "2024" },
-      { name: "نظام Crypto CRM", desc: "نظام CRM لعمليات Crypto Fintech يضم لوحات KYC، إدارة دورة حياة العملاء، ومراقبة معاملات لحظية مع سجل تدقيق كامل.", tags: ["NestJS", "React.js", "MongoDB"], status: "مباشر", year: "2024" },
-      { name: "منصة Dalelok", desc: "سوق إعلانات مبوبة بأسلوب Dubizzle يضم الإعلانات والتصنيفات والبحث والفلاتر وملفات المستخدمين، مع APIs قابلة للتوسع وواجهة React متجاوبة.", tags: ["Node.js", "Express.js", "React.js", "MongoDB", "Socket.io"], status: "مباشر", year: "2024" },
-      { name: "FreshCart E-Commerce", desc: "متجر إلكتروني Full Stack يشمل كتالوج المنتجات، السلة، الدفع، الطلبات، ومدفوعات Stripe مع REST APIs محسنة وإدارة حالة عبر Redux Toolkit.", tags: ["React.js", "Redux Toolkit", "Node.js", "MongoDB", "Stripe"], status: "مفتوح المصدر", year: "2023" },
+      {
+        name: "نظام دعم العملاء",
+        company: "Finitic",
+        url: "https://merchant.cyrafa.net/login",
+        desc: "منصة مركزية لدعم العملاء وإدارة التذاكر والتواصل مع المستخدمين والمرفقات والتقارير، مدعومة ببنية خلفية قابلة للتوسع.",
+        highlights: ["إدارة دورة حياة التذاكر", "صلاحيات مبنية على الأدوار", "إشعارات لحظية", "محادثات لحظية"],
+        tags: ["TypeScript", "React", "Node.js", "NestJS", "MongoDB", "Socket.io", "RabbitMQ", "RBAC", "REST APIs"],
+        status: "مباشر",
+        year: "",
+      },
+      { name: "بوابة العملاء", url: "https://my-bugfree.exiniti.com/login", desc: "بوابة تتيح للعملاء إدارة حسابات التداول ومتابعة المحافظ وإجراء عمليات الإيداع والسحب والوصول إلى معلومات الحساب. تتكامل مع خدمات MT4/MT5 وبوابات دفع متعددة، مع مصادقة آمنة وواجهة متجاوبة وسهلة الاستخدام.", highlights: ["بوابة Crypto", "بوابة Hesaby", "بوابة Cyrafa", "بوابة Checkout", "تحويل بنكي", "MT4/MT5"], tags: ["Node.js", "Express.js", "MongoDB", "Transaction Monitoring", "IT Integration", "Mongoose", "React.js", "JavaScript", "Redux-Saga"], status: "خاص", year: "" },
+      { name: "منصة TPSS للتداول", desc: "نظام تداول متكامل يتيح للعملاء تنفيذ الصفقات ومتابعة المراكز المفتوحة لحظيا، مع إدارة دورة حياة الأوامر وحساب التعرض.", tags: ["React.js", "NestJS", "TypeScript", "Prisma", "PostgreSQL"], status: "مباشر", year: "2024" },
+      { name: "نظام Forex CRM", url: "https://crm-bugfree.exiniti.com/login", desc: "نظام CRM لشركات الوساطة لإدارة العملاء على MT4/MT5، مع محرك عمولات وRebate آلي لهياكل Introducing Broker.", highlights: ["MT4/MT5", "بوابة Crypto", "بوابة Hesaby", "بوابة Cyrafa", "بوابة Checkout", "تحويل بنكي"], tags: ["Node.js", "React.js", "Mongoose", "RabbitMQ", "Socket.io", "Express.js", "Engineering Leadership", "MongoDB", "MySQL", "IT Integration", "Redux-Saga"], status: "مباشر", year: "2024" },
+      { name: "بوابة دفع Crypto", url: "https://merchant.cyrafa.com/login", desc: "بوابة دفع متعددة العملات تتيح للتجار قبول العملات الرقمية، التحقق من معاملات المحافظ، وتشغيل تسويات آلية بين Crypto وFiat.", tags: ["TypeScript", "React.js", "Material UI", "Redux-Saga", "MongoDB", "Mongoose", "Express.js"], status: "مباشر", year: "2024" },
+      { name: "نظام Crypto CRM", url: "https://new-crm.cyrafa.net/login", desc: "نظام CRM لعمليات Crypto Fintech يضم لوحات KYC، إدارة دورة حياة العملاء، ومراقبة معاملات لحظية مع سجل تدقيق كامل.", tags: ["JavaScript", "React.js", "Material UI", "Redux-Saga", "MongoDB", "Mongoose", "Express.js"], status: "مباشر", year: "2024" },
+      { name: "منصة Dalelok", desc: "سوق إعلانات مبوبة بأسلوب Dubizzle يضم الإعلانات والتصنيفات والبحث والفلاتر وملفات المستخدمين، مع APIs قابلة للتوسع وواجهة React متجاوبة.", tags: ["Node.js", "PostgreSQL", "Express.js", "IT Strategy", "Web Chat", "IT Integration", "Sequelize.js", "I18n"], status: "مباشر", year: "2024" },
+      { name: "FreshCart E-Commerce", url: "https://ahmed-yehia12.github.io/E-CommerceReactJs/#/login", desc: "متجر إلكتروني Full Stack يشمل كتالوج المنتجات، السلة، الدفع، الطلبات، ومدفوعات Stripe مع REST APIs محسنة وإدارة حالة عبر Redux Toolkit.", tags: ["React.js", "Redux Toolkit", "Node.js", "MongoDB", "Stripe"], status: "مفتوح المصدر", year: "2023" },
       { name: "Tawseela Logistics", desc: "منصة توصيل للعملاء والكباتن والمشغلين مع لوحات شحنات، إدارة الكباتن، وأدوات تسوية نقدية.", tags: ["Node.js", "MongoDB", "React.js", "Express.js"], status: "مباشر", year: "2023" },
       { name: "Saraha Anonymous Messaging", desc: "تطبيق رسائل مجهولة يضم إدارة صندوق الوارد، مراجعة الرسائل، وجلسات مستخدم آمنة بدون كشف هوية المرسل.", tags: ["Node.js", "Express.js", "MongoDB", "React.js"], status: "مفتوح المصدر", year: "2023" },
     ],
@@ -466,6 +488,13 @@ export default function Portfolio() {
         @keyframes gridPulse{0%,100%{opacity:.04}50%{opacity:.09}}
         a{color:${t.link};text-decoration:none;transition:color .2s;}
         a:hover{color:${t.accent};}
+        .hero-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,300px);align-items:center;gap:clamp(32px,6vw,72px);}
+        .hero-portrait{width:100%;max-width:300px;justify-self:center;animation:fadeUp .8s .15s ease both;}
+        .hero-portrait img{display:block;width:100%;aspect-ratio:1;object-fit:cover;object-position:center top;}
+        @media(max-width:800px){
+          .hero-layout{grid-template-columns:1fr;}
+          .hero-portrait{max-width:230px;margin-top:40px;}
+        }
       `}</style>
 
       <Cursor t={t} />
@@ -513,33 +542,34 @@ export default function Portfolio() {
 
       <main style={{ maxWidth: 1100, margin: "0 auto", padding: "0 5vw", position: "relative" }}>
         <section id="about" ref={(el) => { refs.current.about = el; }} style={{ minHeight: "100vh", display: "flex", flexDirection: "column", justifyContent: "center", paddingTop: 120, textAlign: rtlTextAlign }}>
-          <div style={{ animation: "fadeUp .8s ease both" }}>
-            <span style={{ fontSize: 10, letterSpacing: isArabic ? ".04em" : ".25em", textTransform: isArabic ? "none" : "uppercase", color: t.accent, marginBottom: 8, display: "block", transition: "color .4s" }}>{copy.hero.eyebrow}</span>
-            <div style={{ fontSize: "clamp(12px,1.6vw,14px)", color: t.textMuted, marginBottom: 14, fontWeight: 300, transition: "color .4s" }}>
-              <TypeWriter text={copy.hero.typewriter} speed={48} accentColor={t.accent} />
-            </div>
-            <h1 style={{ fontFamily: isArabic ? "Tajawal,sans-serif" : "Syne,sans-serif", fontWeight: 800, fontSize: "clamp(46px,8.5vw,96px)", lineHeight: 1.02, color: t.text, letterSpacing: 0, marginBottom: 20, transition: "color .4s" }}>
-              {copy.hero.firstName}<br /><span style={{ color: t.accent, textShadow: dark ? "0 0 28px rgba(0,255,157,.35)" : "none", transition: "color .4s,text-shadow .4s" }}>{copy.hero.lastName}</span>
-            </h1>
-            <p style={{ maxWidth: 610, fontSize: 14, lineHeight: 1.9, color: t.textMuted, marginBottom: 18, fontWeight: 300, transition: "color .4s", marginInlineEnd: isArabic ? 0 : "auto" }}>
-              {copy.hero.bio}
-            </p>
-            <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginBottom: 36, justifyContent: isArabic ? "flex-end" : "flex-start" }}>
-              {copy.hero.badges.map((label, index) => {
-                const badgeColors = [
-                  { rgb: t.accentRgb, c: t.accent },
-                  { rgb: "56,189,248", c: "#38bdf8" },
-                  { rgb: "251,191,36", c: "#fbbf24" },
-                ];
-                const b = badgeColors[index];
-                return (
-                  <span key={label} style={{ background: `rgba(${b.rgb},.1)`, border: `1px solid rgba(${b.rgb},.3)`, color: b.c, fontSize: 11, padding: "4px 14px", borderRadius: 20, letterSpacing: isArabic ? 0 : ".07em" }}>
-                    {label}
-                  </span>
-                );
-              })}
-            </div>
-            <div style={{ display: "flex", gap: 12, flexWrap: "wrap", justifyContent: isArabic ? "flex-end" : "flex-start" }}>
+          <div className="hero-layout">
+            <div style={{ animation: "fadeUp .8s ease both" }}>
+              <span style={{ fontSize: 10, letterSpacing: isArabic ? ".04em" : ".25em", textTransform: isArabic ? "none" : "uppercase", color: t.accent, marginBottom: 8, display: "block", transition: "color .4s" }}>{copy.hero.eyebrow}</span>
+              <div style={{ fontSize: "clamp(12px,1.6vw,14px)", color: t.textMuted, marginBottom: 14, fontWeight: 300, transition: "color .4s" }}>
+                <TypeWriter text={copy.hero.typewriter} speed={48} accentColor={t.accent} />
+              </div>
+              <h1 style={{ fontFamily: isArabic ? "Tajawal,sans-serif" : "Syne,sans-serif", fontWeight: 800, fontSize: "clamp(46px,8.5vw,96px)", lineHeight: 1.02, color: t.text, letterSpacing: 0, marginBottom: 20, transition: "color .4s" }}>
+                {copy.hero.firstName}<br /><span style={{ color: t.accent, textShadow: dark ? "0 0 28px rgba(0,255,157,.35)" : "none", transition: "color .4s,text-shadow .4s" }}>{copy.hero.lastName}</span>
+              </h1>
+              <p style={{ maxWidth: 610, fontSize: 14, lineHeight: 1.9, color: t.textMuted, marginBottom: 18, fontWeight: 300, transition: "color .4s", marginInlineEnd: isArabic ? 0 : "auto" }}>
+                {copy.hero.bio}
+              </p>
+              <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginBottom: 36, justifyContent: isArabic ? "flex-end" : "flex-start" }}>
+                {copy.hero.badges.map((label, index) => {
+                  const badgeColors = [
+                    { rgb: t.accentRgb, c: t.accent },
+                    { rgb: "56,189,248", c: "#38bdf8" },
+                    { rgb: "251,191,36", c: "#fbbf24" },
+                  ];
+                  const b = badgeColors[index];
+                  return (
+                    <span key={label} style={{ background: `rgba(${b.rgb},.1)`, border: `1px solid rgba(${b.rgb},.3)`, color: b.c, fontSize: 11, padding: "4px 14px", borderRadius: 20, letterSpacing: isArabic ? 0 : ".07em" }}>
+                      {label}
+                    </span>
+                  );
+                })}
+              </div>
+              <div style={{ display: "flex", gap: 12, flexWrap: "wrap", justifyContent: isArabic ? "flex-end" : "flex-start" }}>
               <button data-hover onClick={() => go("projects")} style={{ background: t.accent, color: buttonTextColor, border: "none", padding: "12px 28px", borderRadius: 2, fontFamily: "inherit", fontWeight: 700, fontSize: 11, letterSpacing: isArabic ? 0 : ".12em", textTransform: isArabic ? "none" : "uppercase", cursor: "pointer", transition: "opacity .2s,background .4s,color .4s" }} onMouseOver={(e) => { e.currentTarget.style.opacity = .82; }} onMouseOut={(e) => { e.currentTarget.style.opacity = 1; }}>{copy.hero.ctaProjects}</button>
               {[
                 { label: copy.hero.contact, href: "mailto:ahmed.yehia.abdulgawad@gmail.com" },
@@ -572,6 +602,14 @@ export default function Portfolio() {
                 </svg>
                 {copy.hero.resume}
               </a>
+              </div>
+            </div>
+            <div className="hero-portrait" aria-label="Ahmed Yehia portrait">
+              <div style={{ position: "relative", padding: 9, background: t.bgCard, border: `1px solid rgba(${t.accentRgb},.55)`, borderRadius: 4, boxShadow: dark ? `0 0 40px rgba(${t.accentRgb},.12)` : "0 18px 45px rgba(15,23,42,.14)", transition: "background .4s,border .4s,box-shadow .4s" }}>
+                <img src="/ahmed-yehia-profile.jpg" alt="Ahmed Yehia" width="400" height="400" loading="eager" fetchPriority="high" style={{ borderRadius: 2 }} />
+                <span aria-hidden="true" style={{ position: "absolute", top: -5, insetInlineStart: -5, width: 24, height: 24, borderTop: `2px solid ${t.accent}`, borderInlineStart: `2px solid ${t.accent}` }} />
+                <span aria-hidden="true" style={{ position: "absolute", bottom: -5, insetInlineEnd: -5, width: 24, height: 24, borderBottom: `2px solid ${t.accent}`, borderInlineEnd: `2px solid ${t.accent}` }} />
+              </div>
             </div>
           </div>
 
@@ -617,21 +655,36 @@ export default function Portfolio() {
           <SectionTitle label={copy.projectsLabel} start={copy.projectsTitleStart} accent={copy.projectsTitleAccent} t={t} dark={dark} isArabic={isArabic} />
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(285px,1fr))", gap: 16 }}>
             {copy.projects.map((p, i) => (
-              <div key={p.name} style={{ background: t.bgCard, border: `1px solid ${t.border}`, padding: 24, borderRadius: 4, transition: "border-color .25s,transform .25s,background .4s,border .4s", animation: `fadeUp .6s ${i * .09}s ease both`, cursor: "default" }} onMouseOver={(e) => { e.currentTarget.style.borderColor = t.accent; e.currentTarget.style.transform = "translateY(-4px)"; }} onMouseOut={(e) => { e.currentTarget.style.borderColor = t.border; e.currentTarget.style.transform = "translateY(0)"; }}>
+              <a key={p.name} href={p.url || undefined} target={p.url ? "_blank" : undefined} rel={p.url ? "noopener noreferrer" : undefined} aria-label={p.url ? `${p.name} — open project` : undefined} style={{ display: "block", background: t.bgCard, border: `1px solid ${t.border}`, padding: 24, borderRadius: 4, transition: "border-color .25s,transform .25s,background .4s,border .4s", animation: `fadeUp .6s ${i * .09}s ease both`, cursor: p.url ? "pointer" : "default" }} onMouseOver={(e) => { e.currentTarget.style.borderColor = t.accent; e.currentTarget.style.transform = "translateY(-4px)"; }} onMouseOut={(e) => { e.currentTarget.style.borderColor = t.border; e.currentTarget.style.transform = "translateY(0)"; }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 10, marginBottom: 10, flexDirection: isArabic ? "row-reverse" : "row" }}>
                   <span style={{ fontFamily: isArabic ? "Tajawal,sans-serif" : "Syne,sans-serif", fontWeight: 700, fontSize: 15, color: t.text, lineHeight: 1.3, transition: "color .4s" }}>{p.name}</span>
                   <span style={{ fontSize: 10, padding: "3px 10px", borderRadius: 20, letterSpacing: isArabic ? 0 : ".07em", whiteSpace: "nowrap", background: p.status === "Live" || p.status === "مباشر" ? `rgba(${t.accentRgb},.1)` : "rgba(56,189,248,.1)", color: p.status === "Live" || p.status === "مباشر" ? t.accent : "#38bdf8", border: `1px solid ${p.status === "Live" || p.status === "مباشر" ? `rgba(${t.accentRgb},.3)` : "rgba(56,189,248,.3)"}` }}>
                     {p.status}
                   </span>
                 </div>
+                {p.company && (
+                  <div style={{ fontSize: 10, color: t.accent, letterSpacing: isArabic ? 0 : ".08em", marginBottom: 10, transition: "color .4s" }}>
+                    {isArabic ? "مرتبط بـ" : "Associated with"} {p.company}
+                  </div>
+                )}
                 <p style={{ fontSize: 12, color: t.textMuted, lineHeight: 1.82, marginBottom: 16, fontWeight: 300, transition: "color .4s" }}>{p.desc}</p>
+                {p.highlights && (
+                  <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: 6, margin: "0 0 16px", padding: 0 }}>
+                    {p.highlights.map((highlight) => (
+                      <li key={highlight} style={{ display: "flex", gap: 8, alignItems: "flex-start", flexDirection: isArabic ? "row-reverse" : "row", fontSize: 11, color: t.textMuted, lineHeight: 1.55 }}>
+                        <span aria-hidden="true" style={{ color: t.accent }}>›</span>
+                        <span>{highlight}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
                 <div style={{ marginBottom: 14 }}>
                   {p.tags.map((tag) => (
                     <span key={tag} style={{ display: "inline-block", background: t.tagBg, border: `1px solid ${t.tagBorder}`, color: t.tagText, fontSize: 10, padding: "3px 8px", borderRadius: 2, letterSpacing: ".05em", margin: 2, transition: "background .4s,border .4s,color .4s", direction: "ltr" }}>{tag}</span>
                   ))}
                 </div>
                 <div style={{ fontSize: 10, color: t.textFaint, letterSpacing: ".1em", textAlign: isArabic ? "left" : "right", transition: "color .4s" }}>{p.year}</div>
-              </div>
+              </a>
             ))}
           </div>
         </section>
